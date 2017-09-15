@@ -1,0 +1,15 @@
+// SIZES
+
+$line-height: (
+
+);
+
+$font-size: (
+        'body': 1.1875,
+);
+
+@mixin font-size-lookup($tag) {
+  $size: map-get($font-size, $tag);
+  font-size: ($size * $root-font-size) + px;
+  font-size: $size + rem;
+}

@@ -1,0 +1,11 @@
+// RESET
+
+* {
+  // padding inside, margin outside, forces consistent spacing
+  box-sizing: border-box;
+}
+
+html {
+  // make the scroll bar always appear so width is consistent
+  overflow-y: scroll;
+}

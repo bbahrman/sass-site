@@ -1,0 +1,14 @@
+@import "colors";
+@import "typeset";
+
+// FONT SIZES
+
+body {
+  background: map-get($colors, 'background');
+  @include font-size-lookup('body');
+  color: map-get($colors, 'text');
+  line-height: $line-height;
+}
+
+
+
